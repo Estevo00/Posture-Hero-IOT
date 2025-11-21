@@ -42,5 +42,5 @@ https://youtu.be/mopySJtn7VE
 ---
 
 ## 👥 Autores
-- Felipe Estevo
-- Cauã Silva
+- Felipe Estevo RM567780
+- Cauã Silva RM568143
