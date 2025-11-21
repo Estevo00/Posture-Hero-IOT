@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Posture Hero - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Posture Hero - Dashboard</h1>
+  <p>Monitoramento de postura e gamificação no futuro do trabalho.</p>
+
+  <div class="card">
+    <p class="label">Status da Postura:</p>
+    <p id="status">Carregando...</p>
+
+    <p class="label">Distância da coluna (cm):</p>
+    <p id="distance">--</p>
+
+    <p class="label">Pontuação (Score):</p>
+    <p id="score">0</p>
+
+    <p class="label">Alertas de má postura:</p>
+    <p id="alerts">0</p>
+
+    <p class="label">Missão do dia:</p>
+    <p>Acumular 60 pontos de postura correta.</p>
+    <div class="mission-bar-container">
+      <div id="missionBar" class="mission-bar"></div>
+    </div>
+    <p class="small" id="missionText">Progresso: 0 / 60 pontos</p>
+
+    <p class="small" id="timestamp">Última atualização: --</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
